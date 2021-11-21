@@ -1,0 +1,114 @@
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+}
+
+.header-content {
+  width: 96%;
+  max-width: 1440px;
+  height: inherit;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content-left {
+}
+
+.header-content-left-logo {
+  height: 32px;
+  cursor: pointer;
+}
+
+.header-content-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav span {
+  margin-right: 24px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header-action {
+  display: flex;
+  align-items: center;
+  margin-left: 47px;
+}
+
+.header-action-input {
+  width: 160px;
+  height: 40px;
+  font-size: 16px;
+  background: #f2f2f2;
+  -webkit-border-top-left-radius: 25px;
+  -webkit-border-bottom-left-radius: 25px;
+  -moz-border-radius-topleft: 25px;
+  -moz-border-radius-bottomleft: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 0 16px;
+  border: none;
+  outline: none;
+}
+
+.header-action-input-button {
+  width: 42px;
+  height: 40px;
+  background: #f2f2f2;
+  -webkit-border-top-right-radius: 25px;
+  -webkit-border-bottom-right-radius: 25px;
+  -moz-border-radius-topright: 25px;
+  -moz-border-radius-bottomright: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.header-action-input-button img {
+  height: 20px;
+}
+
+.header-action-button {
+  height: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+/* Auth Module Style */
+.auth-module-container {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.auth-module {
+  height: 50vh;
+  width: 20%;
+  background-color: #ffffff;
+  padding: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
